@@ -1,6 +1,6 @@
 package com.github.steevedroz.util;
 
-public abstract class StringUtils {
+public abstract class StringUtil {
     public static String join(Object[][] data, char lineSeparator, char elementSeparator) {
 	StringBuilder str = new StringBuilder();
 	for (int i = 0; i < data.length; i++) {
